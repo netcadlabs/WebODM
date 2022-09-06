@@ -19,3 +19,5 @@ services:
       - "3000"
     restart: unless-stopped
     oom_score_adj: 500
+    volumes:
+      - /Users/bugracoskun/desktop/dronet/DRONET-API/tmpWebodm:/var/www/data

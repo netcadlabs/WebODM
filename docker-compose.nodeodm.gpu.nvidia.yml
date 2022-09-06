@@ -22,3 +22,5 @@ services:
             - driver: nvidia
               count: 1
               capabilities: [gpu]
+    volumes:
+      - /Users/bugracoskun/desktop/dronet/DRONET-API/tmpWebodm:/var/www/data
